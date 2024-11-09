@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Enan\PathaoCourier\DataDTO;
+namespace Kiranaryal\PathaoCourierNepal\DataDTO;
 
 
-use Enan\PathaoCourier\Requests\PathaoStoreRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoStoreRequest;
 
 
 class PathaoStoreDataDTO

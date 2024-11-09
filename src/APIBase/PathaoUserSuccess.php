@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Enan\PathaoCourier\APIBase;
+namespace Kiranaryal\PathaoCourierNepal\APIBase;
 
 
 use Illuminate\Support\Arr;
-use Enan\PathaoCourier\APIBase\PathaoBaseAPI;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoBaseAPI;
 use Symfony\Component\HttpFoundation\Request;
-use Enan\PathaoCourier\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
 
 
 class PathaoUserSuccess extends PathaoBaseAPI

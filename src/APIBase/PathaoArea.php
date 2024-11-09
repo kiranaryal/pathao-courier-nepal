@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Enan\PathaoCourier\APIBase;
+namespace Kiranaryal\PathaoCourierNepal\APIBase;
 
 
 use Illuminate\Support\Arr;
 use Illuminate\Http\Request;
-use Enan\PathaoCourier\Services\DataServiceOutput;
-use Enan\PathaoCourier\APIBase\PathaoBaseAPI;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoBaseAPI;
 
 
 class PathaoArea extends PathaoBaseAPI

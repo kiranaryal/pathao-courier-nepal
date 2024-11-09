@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Requests;
+namespace Kiranaryal\PathaoCourierNepal\Requests;
 
 
 class PathaoOrderPriceCalculationRequest extends BasePathaoRequest

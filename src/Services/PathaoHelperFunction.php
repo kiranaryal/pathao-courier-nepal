@@ -1,6 +1,6 @@
 <?php
 
-namespace Enan\PathaoCourier\Services;
+namespace Kiranaryal\PathaoCourierNepal\Services;
 
 use Illuminate\Support\Facades\DB;
 

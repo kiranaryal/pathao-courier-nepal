@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Requests;
+namespace Kiranaryal\PathaoCourierNepal\Requests;
 
-use Enan\PathaoCourier\Requests\BasePathaoRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\BasePathaoRequest;
 
 
 class PathaoAccessTokenRequest extends BasePathaoRequest

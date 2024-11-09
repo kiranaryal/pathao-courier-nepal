@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Enan\PathaoCourier\DataDTO;
+namespace Kiranaryal\PathaoCourierNepal\DataDTO;
 
 
-use Enan\PathaoCourier\Requests\PathaoOrderRequest;
-use Enan\PathaoCourier\Requests\PathaoUserSuccessRateRequest;
-use Enan\PathaoCourier\Requests\PathaoOrderPriceCalculationRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoOrderRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoUserSuccessRateRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoOrderPriceCalculationRequest;
 
 
 class PathaoOrderDTO

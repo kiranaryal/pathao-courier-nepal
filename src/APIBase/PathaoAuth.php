@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Enan\PathaoCourier\APIBase;
+namespace Kiranaryal\PathaoCourierNepal\APIBase;
 
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
-use Enan\PathaoCourier\Services\DataServiceOutput;
-use Enan\PathaoCourier\APIBase\PathaoBaseAPI;
-use Enan\PathaoCourier\DataDTO\AccessTokenDTO;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoBaseAPI;
+use Kiranaryal\PathaoCourierNepal\DataDTO\AccessTokenDTO;
 use Illuminate\Http\Request;
-use Enan\PathaoCourier\Services\PathaoHelperFunction;
+use Kiranaryal\PathaoCourierNepal\Services\PathaoHelperFunction;
 
 class PathaoAuth extends PathaoBaseAPI
 {
@@ -37,7 +37,7 @@ class PathaoAuth extends PathaoBaseAPI
     /**
      * Issue a token from Pathao Courier
      * @param array $cred
-     * @return \Enan\PathaoCourier\Services\DataServiceOutput
+     * @return \Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput
      */
     public function getAccessToken(array $cred): DataServiceOutput
     {
@@ -91,7 +91,7 @@ class PathaoAuth extends PathaoBaseAPI
     /**
      * This function will return the remaining days of expiration
      * it will return both days left and the expected date.
-     * @return \Enan\PathaoCourier\Services\DataServiceOutput
+     * @return \Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput
      */
     public function getAccessTokenExpiryDaysLeft(): DataServiceOutput
     {
@@ -108,7 +108,7 @@ class PathaoAuth extends PathaoBaseAPI
 
     /**
      * Get new access token if the token is outdated.
-     * @return \Enan\PathaoCourier\Services\DataServiceOutput
+     * @return \Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput
      */
     public function getNewAccesstoken(): DataServiceOutput
     {

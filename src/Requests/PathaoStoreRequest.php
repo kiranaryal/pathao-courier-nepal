@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Requests;
+namespace Kiranaryal\PathaoCourierNepal\Requests;
 
 
 class PathaoStoreRequest extends BasePathaoRequest
@@ -20,7 +20,7 @@ class PathaoStoreRequest extends BasePathaoRequest
             'contact_number' => [
                 'required',
                 'string',
-                'regex:/^(?:\+880|880|01[3-9])\d{8}$/'
+'regex:/^(?:\+977[- ]?|977[- ]?|0)?9[78]\d{8}$/'
             ],
             'address' => [
                 'required',

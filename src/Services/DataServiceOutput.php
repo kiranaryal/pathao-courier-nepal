@@ -1,6 +1,6 @@
 <?php
 
-namespace Enan\PathaoCourier\Services;
+namespace Kiranaryal\PathaoCourierNepal\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

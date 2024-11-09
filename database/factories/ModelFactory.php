@@ -1,6 +1,6 @@
 <?php
 
-namespace Enan\PathaoCourier\Database\Factories;
+namespace Kiranaryal\PathaoCourierNepal\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

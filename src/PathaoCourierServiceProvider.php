@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Enan\PathaoCourier;
+namespace Kiranaryal\PathaoCourierNepal;
 
 
 use Illuminate\Support\ServiceProvider;
-use Enan\PathaoCourier\Commands\PathaoCourierCommand;
+use Kiranaryal\PathaoCourierNepal\Commands\PathaoCourierCommand;
 
 class PathaoCourierServiceProvider extends ServiceProvider
 {

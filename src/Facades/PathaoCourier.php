@@ -1,16 +1,16 @@
 <?php
 
-namespace Enan\PathaoCourier\Facades;
+namespace Enan\Kiranaryal\PathaoCourierNepal\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Enan\PathaoCourier\PathaoCourier
+ * @see \Kiranaryal\PathaoCourierNepal\PathaoCourier
  */
 class PathaoCourier extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Enan\PathaoCourier\PathaoCourier::class;
+        return \Kiranaryal\PathaoCourierNepal\PathaoCourier::class;
     }
 }

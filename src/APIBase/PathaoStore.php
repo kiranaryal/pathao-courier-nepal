@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Enan\PathaoCourier\APIBase;
+namespace Kiranaryal\PathaoCourierNepal\APIBase;
 
 
-use Enan\PathaoCourier\APIBase\PathaoBaseAPI;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoBaseAPI;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Enan\PathaoCourier\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
 
 
 class PathaoStore extends PathaoBaseAPI

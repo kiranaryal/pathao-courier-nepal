@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Commands;
+namespace Kiranaryal\PathaoCourierNepal\Commands;
 
 
-use Enan\PathaoCourier\APIBase\PathaoAuth;
-use Enan\PathaoCourier\DataDTO\AccessTokenDTO;
-use Enan\PathaoCourier\Requests\PathaoAccessTokenRequest;
-use Enan\PathaoCourier\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoAuth;
+use Kiranaryal\PathaoCourierNepal\DataDTO\AccessTokenDTO;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoAccessTokenRequest;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
@@ -157,7 +157,7 @@ class PathaoCourierCommand extends Command
     /**
      * This will issue a access token from Pathao Courier
      * @param array $cred
-     * @return \Enan\PathaoCourier\Services\DataServiceOutput
+     * @return \Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput
      */
     private static function GET_ACCESS_TOKEN(array $cred): DataServiceOutput
     {
@@ -166,7 +166,7 @@ class PathaoCourierCommand extends Command
 
     /**
      * This will issue a access token from Pathao Courier
-     * @return \Enan\PathaoCourier\Services\DataServiceOutput
+     * @return \Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput
      */
     private static function GET_NEW_ACCESS_TOKEN(): DataServiceOutput
     {

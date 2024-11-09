@@ -1,11 +1,11 @@
 <?php
 
-namespace Enan\PathaoCourier\Requests;
+namespace Kiranaryal\PathaoCourierNepal\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Validation\ValidationException;
-use Enan\PathaoCourier\Services\Exceptions\PathaoException;
+use Kiranaryal\PathaoCourierNepal\Services\Exceptions\PathaoException;
 use Symfony\Component\HttpFoundation\Response as HttpResponseCode;
 
 

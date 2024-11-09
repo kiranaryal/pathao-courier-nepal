@@ -1,6 +1,6 @@
 <?php
 
-// config for Enan/PathaoCourier
+// config for Kiranaryal\PathaoCourierNepal
 return [
 
     /*
@@ -10,7 +10,7 @@ return [
     |
     | The migration file is using this table name. If you provide the name
     | in .env it will use that name otherwise it will use the default name
-    | 'pathao-courier'. If you wish to change the name of migration. Remember 
+    | 'pathao-courier'. If you wish to change the name of migration. Remember
     | to update it before migration.
     |
     */

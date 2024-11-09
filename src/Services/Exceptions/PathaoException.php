@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Services\Exceptions;
+namespace Kiranaryal\PathaoCourierNepal\Services\Exceptions;
 
 use Exception;
 use Throwable;

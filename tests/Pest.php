@@ -1,5 +1,5 @@
 <?php
 
-use Enan\PathaoCourier\Tests\TestCase;
+use Kiranaryal\PathaoCourierNepal\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

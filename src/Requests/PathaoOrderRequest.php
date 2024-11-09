@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Enan\PathaoCourier\Requests;
+namespace Kiranaryal\PathaoCourierNepal\Requests;
 
 
 class PathaoOrderRequest extends BasePathaoRequest
@@ -30,7 +30,7 @@ class PathaoOrderRequest extends BasePathaoRequest
             'sender_phone' => [
                 'required',
                 'string',
-                'regex:/^(?:\+880|880|01[3-9])\d{8}$/'
+'regex:/^(?:\+977[- ]?|977[- ]?|0)?9[78]\d{8}$/'
             ],
             'recipient_name' => [
                 'required',
@@ -39,7 +39,7 @@ class PathaoOrderRequest extends BasePathaoRequest
             'recipient_phone' => [
                 'required',
                 'string',
-                'regex:/^(?:\+880|880|01[3-9])\d{8}$/'
+'regex:/^(?:\+977[- ]?|977[- ]?|0)?9[78]\d{8}$/'
             ],
             'recipient_address' => [
                 'required',

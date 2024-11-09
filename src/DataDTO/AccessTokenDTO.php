@@ -1,18 +1,18 @@
 <?php
 
 
-namespace Enan\PathaoCourier\DataDTO;
+namespace Kiranaryal\PathaoCourierNepal\DataDTO;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Enan\PathaoCourier\Requests\PathaoAccessTokenRequest;
+use Kiranaryal\PathaoCourierNepal\Requests\PathaoAccessTokenRequest;
 
 
 class AccessTokenDTO
 {
     /**
      * This will standardize the data that from a request
-     * @param \Enan\PathaoCourier\Requests\PathaoAccessTokenRequest $request
+     * @param \Kiranaryal\PathaoCourierNepal\Requests\PathaoAccessTokenRequest $request
      * @return array
      */
     public function fromRequest(PathaoAccessTokenRequest $request): array

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Enan\PathaoCourier\APIBase;
+namespace Kiranaryal\PathaoCourierNepal\APIBase;
 
 
 use Illuminate\Support\Arr;
 use Illuminate\Http\Request;
-use Enan\PathaoCourier\APIBase\PathaoBaseAPI;
-use Enan\PathaoCourier\Services\DataServiceOutput;
+use Kiranaryal\PathaoCourierNepal\APIBase\PathaoBaseAPI;
+use Kiranaryal\PathaoCourierNepal\Services\DataServiceOutput;
 
 
 class PathaoOrder extends PathaoBaseAPI

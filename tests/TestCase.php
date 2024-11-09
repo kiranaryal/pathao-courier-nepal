@@ -1,10 +1,10 @@
 <?php
 
-namespace Enan\PathaoCourier\Tests;
+namespace Kiranaryal\PathaoCourierNepal\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Enan\PathaoCourier\PathaoCourierServiceProvider;
+use Kiranaryal\PathaoCourierNepal\PathaoCourierServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Enan\\PathaoCourier\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Kiranaryal\\PathaoCourierNepal\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
