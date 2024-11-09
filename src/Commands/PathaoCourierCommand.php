@@ -76,8 +76,8 @@ class PathaoCourierCommand extends Command
             $this->newLine(1);
             $data = $response->getData();
             if ($response->isSuccess()) {
-                $this->successMessage("Your secret uniqe token is " . Arr::get($data, 'secret_token'));
-                $this->successMessage("Please update your env value `PATHAO_SECRET_TOKEN` with it.");
+                $this->setEnvironmentValue('PATHAO_SECRET_TOKEN',$data);
+                $this->successMessage("PATHAO_SECRET_TOKEN Successfully set");
             } else {
                 $this->errorMessage(Arr::get($data, 'message'));
             }
@@ -172,4 +172,29 @@ class PathaoCourierCommand extends Command
     {
         return (new PathaoAuth)->getNewAccesstoken();
     }
+
+    private function setEnvironmentValue($key, $value)
+    {
+        $path = base_path('.env');
+
+        // Check if the .env file exists
+        if (file_exists($path)) {
+            // Get the current content of the .env file
+            $content = file_get_contents($path);
+
+            // Replace or append the key-value pair
+            if (strpos($content, "{$key}=") !== false) {
+                // Key exists, replace the value
+                $content = preg_replace("/{$key}=.*/", "{$key}={$value}", $content);
+            } else {
+                // Key doesn't exist, append it
+                $content .= "\n{$key}={$value}";
+            }
+
+            // Write the modified content back to the .env file
+            file_put_contents($path, $content);
+        }
+    }
+
+
 }
