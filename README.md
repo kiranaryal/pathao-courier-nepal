@@ -4,11 +4,6 @@
 
 <h1 align="center">A complete Laravel Package for Pathao Courier</h1>
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/enan/pathao-courier.svg?style=flat-square)](https://packagist.org/packages/enan/pathao-courier)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/enan/pathao-courier/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/enan/pathao-courier/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/enan/pathao-courier/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/enan/pathao-courier/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/enan/pathao-courier.svg?style=flat-square)](https://packagist.org/packages/enan/pathao-courier)
-
 A complete package for Laravel to use [Pathao Courier Merchant API](https://merchant.pathao.com/). Setup once and forget about it. You don’t even have to worry about the validation of creating orders, creating a store, or getting calculated price value which are generally a POST request on the Pathao courier end. <br>
 With this package you can get the following
 
@@ -31,7 +26,7 @@ It offers you a bunch of validation for Create order, Create Store, Get calculat
 You can install the package via composer:
 
 ```bash
-composer require enan/pathao-courier
+composer require kiranaryal/pathao-courier-nepal
 ```
 
 You can publish the migration file and config file with:
@@ -44,11 +39,11 @@ Though Laravel auto discover. If not add the following in `config\app.php`. You 
 
 ```php
 // add below line in the providers array
-Enan\PathaoCourier\PathaoCourierServiceProvider::class,
+Kiranaryal\PathaoCourier\PathaoCourierServiceProvider::class,
 
 
 // add below line in the alias array
-'PathaoCourier' => Enan\PathaoCourier\Facades\PathaoCourier::class,
+'PathaoCourier' => Kiranaryal\PathaoCourier\Facades\PathaoCourier::class,
 ```
 
 > Add the following environment variables to your `.env` file. You can choose the table name of migration before running the migration. Default is 'pathao-courier'
@@ -87,7 +82,7 @@ php artisan set:pathao-courier
 Add the Facade before using
 
 ```php
-use Enan\PathaoCourier\Facades\PathaoCourier;
+use Kiranaryal\PathaoCourier\Facades\PathaoCourier;
 ```
 
 > For the POST type response the required validation are mentioned before the function like <required, string> So here the value should be required and string
@@ -230,10 +225,3 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Check me on
-
--   [Portfolio](https://moammer-enan.com/)
--   [Facebook](https://www.facebook.com/moammerfarshidenan)
--   [GitHub](https://github.com/enuenan)
--   [LinkedIn](https://www.linkedin.com/in/moammer-farshid/)
