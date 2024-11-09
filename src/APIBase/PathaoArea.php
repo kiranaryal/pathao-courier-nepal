@@ -19,7 +19,7 @@ class PathaoArea extends PathaoBaseAPI
      */
     public function get_cities()
     {
-        $url = "aladdin/api/v1/countries/1/city-list";
+        $url = "aladdin/api/v1/city-list";
         $API_response = $this->Pathao_API_Response(true, $url, Request::METHOD_GET);
 
         $data = Arr::get($API_response, 'data.data') ?: [];
