@@ -1,17 +1,19 @@
 {
-    "name": "enan/pathao-courier",
-    "description": "A complete Laravel package for Pathao Courier",
+    "name": "kiranaryal/pathao-courier-nepal",
+    "description": "A complete Laravel package for Pathao Courier for nepal  fork of enan/pathao-courier",
     "keywords": [
         "Moammer Farshid Enan",
+        "kiran aryal",
+        "pathao-nepal",
         "laravel",
         "pathao-courier"
     ],
-    "homepage": "https://github.com/enan/pathao-courier",
+    "homepage": "https://github.com/kiranaryal/pathao-courier-nepal",
     "license": "MIT",
     "authors": [
         {
-            "name": "Moammer Farshid Enan",
-            "email": "emoammerfershid@gmail.com",
+            "name": "Kiran Aryal",
+            "email": "kiranaryal2057@gmail.com",
             "role": "Developer"
         }
     ],
