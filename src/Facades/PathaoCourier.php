@@ -1,6 +1,6 @@
 <?php
 
-namespace Enan\Kiranaryal\PathaoCourierNepal\Facades;
+namespace Kiranaryal\PathaoCourierNepal\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -33,13 +33,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Enan\\PathaoCourier\\": "src/",
-            "Enan\\PathaoCourier\\Database\\Factories\\": "database/factories/"
+            "Kiranaryal\\PathaoCourierNepal\\": "src/",
+            "Kiranaryal\\PathaoCourierNepal\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Enan\\PathaoCourier\\Tests\\": "tests/",
+            "Kiranaryal\\PathaoCourierNepal\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
