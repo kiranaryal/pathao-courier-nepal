@@ -77,10 +77,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Enan\\PathaoCourier\\PathaoCourierServiceProvider"
+                "Kiranaryal\\PathaoCourierNepal\\PathaoCourierServiceProvider"
             ],
             "aliases": {
-                "PathaoCourier": "Enan\\PathaoCourier\\Facades\\PathaoCourier"
+                "PathaoCourier": "Kiranaryal\\PathaoCourierNepal\\Facades\\PathaoCourier"
             }
         }
     },
